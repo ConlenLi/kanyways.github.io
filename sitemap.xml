@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>//kany.me/2019/09/12/docker-install-nacos-server/</loc>
+    
+    <lastmod>2019-09-12T09:19:56.845Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>//kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/</loc>
     
     <lastmod>2019-09-12T07:58:54.779Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>//kany.me/2019/09/12/docker-compose-install/</loc>
     
     <lastmod>2019-09-12T07:53:58.795Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>//kany.me/2019/09/12/docker-install-nacos-server/</loc>
-    
-    <lastmod>2019-09-12T07:51:41.164Z</lastmod>
     
   </url>
   
