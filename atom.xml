@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//kany.me/"/>
-  <updated>2019-09-12T07:58:54.779Z</updated>
+  <updated>2019-09-17T07:36:12.332Z</updated>
   <id>//kany.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>about_old_blog</title>
+    <link href="//kany.me/2019/09/17/about-old-blog/"/>
+    <id>//kany.me/2019/09/17/about-old-blog/</id>
+    <published>2019-09-17T07:34:00.000Z</published>
+    <updated>2019-09-17T07:36:12.332Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><blockquote><p>虽然也没有多少人关注咱的这个网站，但是本着既然有这个站点就要做好的原则。<br>还是让大家知道下旧网站在什么地方，最要是博主很穷。</p></blockquote><h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><p><strong><a href="https://blog.kany.me" target="_blank" rel="noopener">https://blog.kany.me</a></strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;虽然也没有多少人关注咱的这个网站，但是本着既然有这个站点就要做好的原则。&lt;br&gt;还是让大家知道下旧网站在什么地方，
+      
+    
+    </summary>
+    
+    
+    
+      <category term="旧博客" scheme="//kany.me/tags/%E6%97%A7%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker Compose 部署Nginx、Mariadb、Nacos-Server</title>
