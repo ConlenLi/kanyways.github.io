@@ -5,9 +5,9 @@
   <subtitle>思想和境界一直在倒退的小虫</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="//kany.me/"/>
-  <updated>2019-09-17T07:40:56.096Z</updated>
-  <id>//kany.me/</id>
+  <link href="https://www.kany.me/"/>
+  <updated>2019-09-17T08:54:26.160Z</updated>
+  <id>https://www.kany.me/</id>
   
   <author>
     <name>Kany.Wang</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>旧博客的访问地址说明</title>
-    <link href="//kany.me/2019/09/17/about-old-blog/"/>
-    <id>//kany.me/2019/09/17/about-old-blog/</id>
+    <link href="https://www.kany.me/2019/09/17/about-old-blog/"/>
+    <id>https://www.kany.me/2019/09/17/about-old-blog/</id>
     <published>2019-09-17T07:34:00.000Z</published>
-    <updated>2019-09-17T07:40:56.096Z</updated>
+    <updated>2019-09-17T08:54:26.160Z</updated>
     
     <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><blockquote><p>虽然也没有多少人关注咱的这个网站，但是本着既然有这个站点就要做好的原则。<br>还是让大家知道下旧网站在什么地方，最要是博主很穷。所以使用了<strong>github pages</strong></p></blockquote><a id="more"></a><h2 id="访问地址"><a href="#访问地址" class="headerlink" title="访问地址"></a>访问地址</h2><blockquote><p>友情链接中的<a href="https://blog.kany.me" target="_blank" rel="noopener">旧博客</a>就是之前的博客地址</p></blockquote><p><strong><a href="https://blog.kany.me" target="_blank" rel="noopener">https://blog.kany.me</a></strong></p>]]></content>
     
@@ -35,14 +35,14 @@
     
     
     
-      <category term="旧博客" scheme="//kany.me/tags/%E6%97%A7%E5%8D%9A%E5%AE%A2/"/>
+      <category term="旧博客" scheme="https://www.kany.me/tags/%E6%97%A7%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>Docker Compose 部署Nginx、Mariadb、Nacos-Server</title>
-    <link href="//kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/"/>
-    <id>//kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/</id>
+    <link href="https://www.kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/"/>
+    <id>https://www.kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/</id>
     <published>2019-09-12T07:55:10.000Z</published>
     <updated>2019-09-12T07:58:54.779Z</updated>
     
@@ -63,30 +63,30 @@
     
     
     
-      <category term="docker" scheme="//kany.me/tags/docker/"/>
+      <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="docker-compose" scheme="//kany.me/tags/docker-compose/"/>
+      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
     
-      <category term="database" scheme="//kany.me/tags/database/"/>
+      <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
-      <category term="mariadb" scheme="//kany.me/tags/mariadb/"/>
+      <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
-      <category term="mysql" scheme="//kany.me/tags/mysql/"/>
+      <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
     
-      <category term="nginx" scheme="//kany.me/tags/nginx/"/>
+      <category term="nginx" scheme="https://www.kany.me/tags/nginx/"/>
     
-      <category term="nacos" scheme="//kany.me/tags/nacos/"/>
+      <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
-      <category term="nacos-server" scheme="//kany.me/tags/nacos-server/"/>
+      <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
     
-      <category term="dockerfile" scheme="//kany.me/tags/dockerfile/"/>
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
   <entry>
     <title>安装 Docker Compose</title>
-    <link href="//kany.me/2019/09/12/docker-compose-install/"/>
-    <id>//kany.me/2019/09/12/docker-compose-install/</id>
+    <link href="https://www.kany.me/2019/09/12/docker-compose-install/"/>
+    <id>https://www.kany.me/2019/09/12/docker-compose-install/</id>
     <published>2019-09-12T07:51:11.000Z</published>
     <updated>2019-09-12T07:53:58.795Z</updated>
     
@@ -111,18 +111,18 @@
     
     
     
-      <category term="docker" scheme="//kany.me/tags/docker/"/>
+      <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="docker-compose" scheme="//kany.me/tags/docker-compose/"/>
+      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
     
-      <category term="dockerfile" scheme="//kany.me/tags/dockerfile/"/>
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
   <entry>
     <title>Docker 安装 Nacos Server</title>
-    <link href="//kany.me/2019/09/12/docker-install-nacos-server/"/>
-    <id>//kany.me/2019/09/12/docker-install-nacos-server/</id>
+    <link href="https://www.kany.me/2019/09/12/docker-install-nacos-server/"/>
+    <id>https://www.kany.me/2019/09/12/docker-install-nacos-server/</id>
     <published>2019-09-12T07:46:36.000Z</published>
     <updated>2019-09-12T09:23:12.645Z</updated>
     
@@ -153,22 +153,22 @@
     
     
     
-      <category term="docker" scheme="//kany.me/tags/docker/"/>
+      <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="nacos" scheme="//kany.me/tags/nacos/"/>
+      <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
-      <category term="nacos-server" scheme="//kany.me/tags/nacos-server/"/>
+      <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
     
-      <category term="dockerfile" scheme="//kany.me/tags/dockerfile/"/>
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
-      <category term="注册中心" scheme="//kany.me/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
+      <category term="注册中心" scheme="https://www.kany.me/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
     
   </entry>
   
   <entry>
     <title>Docker使用MariaDB数据库</title>
-    <link href="//kany.me/2019/09/12/docker-install-mariadb/"/>
-    <id>//kany.me/2019/09/12/docker-install-mariadb/</id>
+    <link href="https://www.kany.me/2019/09/12/docker-install-mariadb/"/>
+    <id>https://www.kany.me/2019/09/12/docker-install-mariadb/</id>
     <published>2019-09-12T07:38:40.000Z</published>
     <updated>2019-09-12T07:41:23.806Z</updated>
     
@@ -193,22 +193,22 @@
     
     
     
-      <category term="docker" scheme="//kany.me/tags/docker/"/>
+      <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="database" scheme="//kany.me/tags/database/"/>
+      <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
-      <category term="mariadb" scheme="//kany.me/tags/mariadb/"/>
+      <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
-      <category term="mysql" scheme="//kany.me/tags/mysql/"/>
+      <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
     
-      <category term="dockerfile" scheme="//kany.me/tags/dockerfile/"/>
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
   <entry>
     <title>在Ubuntu 16.04 安装 Docker</title>
-    <link href="//kany.me/2019/09/11/docker-install/"/>
-    <id>//kany.me/2019/09/11/docker-install/</id>
+    <link href="https://www.kany.me/2019/09/11/docker-install/"/>
+    <id>https://www.kany.me/2019/09/11/docker-install/</id>
     <published>2019-09-11T10:09:06.000Z</published>
     <updated>2019-09-12T07:45:17.709Z</updated>
     
@@ -228,15 +228,15 @@
     
     
     
-      <category term="docker" scheme="//kany.me/tags/docker/"/>
+      <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="database" scheme="//kany.me/tags/database/"/>
+      <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
-      <category term="mariadb" scheme="//kany.me/tags/mariadb/"/>
+      <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
-      <category term="mysql" scheme="//kany.me/tags/mysql/"/>
+      <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
     
-      <category term="dockerfile" scheme="//kany.me/tags/dockerfile/"/>
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
