@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.kany.me/"/>
-  <updated>2019-09-18T08:48:52.629Z</updated>
+  <updated>2019-09-18T12:43:25.849Z</updated>
   <id>https://www.kany.me/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>clear-windows-icon-cache</title>
+    <link href="https://www.kany.me/2019/09/18/clear-windows-icon-cache/"/>
+    <id>https://www.kany.me/2019/09/18/clear-windows-icon-cache/</id>
+    <published>2019-09-18T11:35:04.000Z</published>
+    <updated>2019-09-18T12:43:25.849Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="清理Windows图标缓存"><a href="#清理Windows图标缓存" class="headerlink" title="清理Windows图标缓存"></a>清理Windows图标缓存</h2><blockquote><p>这是一个抄袭的文章，原文在参考资料中</p></blockquote><h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><ul><li>操作系统：Windows 10 x64(1903)<a id="more"></a><h2 id="清理脚本"><a href="#清理脚本" class="headerlink" title="清理脚本"></a>清理脚本</h2></li></ul><pre class="line-numbers language-bash"><code class="language-bash">@echo offrem 关闭Windows外壳程序explorertaskkill /f /im explorer.exerem 清理系统图标缓存数据库attrib -h -s -r <span class="token string">"%userprofile%\AppData\Local\IconCache.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\IconCache.db"</span>attrib /s /d -h -s -r <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\*"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_102.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db"</span>del /f <span class="token string">"%userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db"</span>rem 清理 系统托盘记忆的图标<span class="token keyword">echo</span> y<span class="token operator">|</span>reg delete <span class="token string">"HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"</span> /v IconStreams<span class="token keyword">echo</span> y<span class="token operator">|</span>reg delete <span class="token string">"HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\TrayNotify"</span> /v PastIconsStreamrem 重启Windows外壳程序explorerstart explorer<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://blog.csdn.net/luoyayun361/article/details/79228390" target="_blank" rel="noopener">windows清理图标缓存并重新加载</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;清理Windows图标缓存&quot;&gt;&lt;a href=&quot;#清理Windows图标缓存&quot; class=&quot;headerlink&quot; title=&quot;清理Windows图标缓存&quot;&gt;&lt;/a&gt;清理Windows图标缓存&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;这是一个抄袭的文章，原文在参考资料中&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;运行环境&quot;&gt;&lt;a href=&quot;#运行环境&quot; class=&quot;headerlink&quot; title=&quot;运行环境&quot;&gt;&lt;/a&gt;运行环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;操作系统：Windows 10 x64(1903)
+    
+    </summary>
+    
+    
+    
+      <category term="windows" scheme="https://www.kany.me/tags/windows/"/>
+    
+  </entry>
   
   <entry>
     <title>JDK的新特性</title>
@@ -96,8 +121,6 @@
     
       <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
@@ -109,6 +132,8 @@
       <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -184,11 +209,11 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
       <category term="注册中心" scheme="https://www.kany.me/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
     
@@ -222,13 +247,13 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -257,13 +282,13 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
