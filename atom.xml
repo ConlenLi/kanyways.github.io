@@ -186,15 +186,15 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
-    
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
+    
+      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
     
       <category term="nginx" scheme="https://www.kany.me/tags/nginx/"/>
     
@@ -234,9 +234,9 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
-    
       <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
+    
+      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
     
   </entry>
   
@@ -314,13 +314,13 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -349,13 +349,13 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
