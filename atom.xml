@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.kany.me/"/>
-  <updated>2019-09-20T08:58:25.424Z</updated>
+  <updated>2019-10-08T06:56:08.399Z</updated>
   <id>https://www.kany.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为Github Pages添加Gitment评价功能</title>
+    <link href="https://www.kany.me/2019/10/08/add-gitment-comment-for-github-pagages/"/>
+    <id>https://www.kany.me/2019/10/08/add-gitment-comment-for-github-pagages/</id>
+    <published>2019-10-08T06:26:28.000Z</published>
+    <updated>2019-10-08T06:56:08.399Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文章背景"><a href="#文章背景" class="headerlink" title="文章背景"></a>文章背景</h2><blockquote><p>自从修改了博客为<strong>Github Pages</strong>之后一直没有给博客系统添加上评价功能。最后我们选择了<strong>Gitment</strong><br>本文主要介绍一些注意的点，只描述自己遇到的，其余的请看参考资料</p></blockquote><a id="more"></a><h2 id="使用Gitment的条件"><a href="#使用Gitment的条件" class="headerlink" title="使用Gitment的条件"></a>使用Gitment的条件</h2><blockquote><p>由于大家都是已经使用了Github Pages也就有了Github的账号，那么需要创建如下程序：</p><ul><li><a href="https://github.com/settings/applications/new" target="_blank" rel="noopener">Github Application</a>：这个用来授权用户登录之后认证</li><li><a href="https://github.com/new" target="_blank" rel="noopener">Github Repository</a>：这个用来保存评论信息</li></ul></blockquote><p><img src="/assets/gitment/0001.jpg" alt="img"></p><h2 id="Gitment-Id长度限制"><a href="#Gitment-Id长度限制" class="headerlink" title="Gitment Id长度限制"></a>Gitment Id长度限制</h2><blockquote><p>在刚接入的时候不知道个人的文章URL长度过长，造成点击“Initialize Comments”时一直提示“Validation Failed”</p></blockquote><p>返回错误信息如下：</p><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token punctuation">{</span>  <span class="token string">"message"</span><span class="token punctuation">:</span> <span class="token string">"Validation Failed"</span><span class="token punctuation">,</span>  <span class="token string">"errors"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span>    <span class="token punctuation">{</span>      <span class="token string">"value"</span><span class="token punctuation">:</span> <span class="token string">"https://www.kany.me/2019/09/18/clear-windows-icon-cache/"</span><span class="token punctuation">,</span>      <span class="token string">"resource"</span><span class="token punctuation">:</span> <span class="token string">"Label"</span><span class="token punctuation">,</span>      <span class="token string">"field"</span><span class="token punctuation">:</span> <span class="token string">"name"</span><span class="token punctuation">,</span>      <span class="token string">"code"</span><span class="token punctuation">:</span> <span class="token string">"invalid"</span>    <span class="token punctuation">}</span>  <span class="token punctuation">]</span><span class="token punctuation">,</span>  <span class="token string">"documentation_url"</span><span class="token punctuation">:</span> <span class="token string">"https://developer.github.com/v3/issues/#create-an-issue"</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>原因是在创建Label的Name时是有长度限制的，那么根据参考资料“<a href="https://madordie.github.io/post/blog-gitment-auto-setup/" target="_blank" rel="noopener">Gitment/Gitalk自动初始化</a>”采用了MD5处理URL的方式解决该问题</p><pre class="line-numbers language-javascript"><code class="language-javascript"><span class="token keyword">var</span> gitment <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Gitment</span><span class="token punctuation">(</span><span class="token punctuation">{</span>    id<span class="token punctuation">:</span> <span class="token function">md5</span><span class="token punctuation">(</span><span class="token string">"&lt;%= url %>"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>    owner<span class="token punctuation">:</span> <span class="token string">'&lt;%= theme.gitment_owner %>'</span><span class="token punctuation">,</span>    repo<span class="token punctuation">:</span> <span class="token string">'&lt;%= theme.gitment_repo %>'</span><span class="token punctuation">,</span>    oauth<span class="token punctuation">:</span> <span class="token punctuation">{</span>        client_id<span class="token punctuation">:</span> <span class="token string">'&lt;%= theme.gitment_oauth.client_id %>'</span><span class="token punctuation">,</span>        client_secret<span class="token punctuation">:</span> <span class="token string">'&lt;%= theme.gitment_oauth.client_secret %>'</span><span class="token punctuation">,</span>    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="自定义域名"><a href="#自定义域名" class="headerlink" title="自定义域名"></a>自定义域名</h2><blockquote><p>Github Page使用自定义域名需要使用到解析Ip，常用的Github Pages的Ip如下：</p></blockquote><pre class="line-numbers language-bash"><code class="language-bash"><span class="token comment" spellcheck="true"># 美国</span>192.30.252.154192.30.252.153<span class="token comment" spellcheck="true"># 荷兰</span>185.199.110.153185.199.111.153185.199.108.153185.199.109.153<span class="token comment" spellcheck="true"># 美国</span>104.24.108.62104.24.109.62104.24.110.62104.24.111.62<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://www.jianshu.com/p/57afa4844aaa" target="_blank" rel="noopener">Gitment评论功能接入踩坑教程</a></li><li><a href="https://madordie.github.io/post/blog-gitment-auto-setup/" target="_blank" rel="noopener">Gitment/Gitalk自动初始化</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文章背景&quot;&gt;&lt;a href=&quot;#文章背景&quot; class=&quot;headerlink&quot; title=&quot;文章背景&quot;&gt;&lt;/a&gt;文章背景&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;自从修改了博客为&lt;strong&gt;Github Pages&lt;/strong&gt;之后一直没有给博客系统添加上评价功能。最后我们选择了&lt;strong&gt;Gitment&lt;/strong&gt;&lt;br&gt;本文主要介绍一些注意的点，只描述自己遇到的，其余的请看参考资料&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Comment" scheme="https://www.kany.me/tags/Comment/"/>
+    
+      <category term="Github" scheme="https://www.kany.me/tags/Github/"/>
+    
+      <category term="Github-Pages" scheme="https://www.kany.me/tags/Github-Pages/"/>
+    
+      <category term="Gitment" scheme="https://www.kany.me/tags/Gitment/"/>
+    
+  </entry>
   
   <entry>
     <title>Date在JDK8的新变化</title>
@@ -186,21 +215,21 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
+      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
+    
       <category term="database" scheme="https://www.kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://www.kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://www.kany.me/tags/mysql/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
-      <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
-    
       <category term="nginx" scheme="https://www.kany.me/tags/nginx/"/>
     
       <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -234,9 +263,9 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="docker-compose" scheme="https://www.kany.me/tags/docker-compose/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -276,11 +305,11 @@
     
       <category term="docker" scheme="https://www.kany.me/tags/docker/"/>
     
-      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
-    
       <category term="nacos" scheme="https://www.kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://www.kany.me/tags/nacos-server/"/>
+    
+      <category term="dockerfile" scheme="https://www.kany.me/tags/dockerfile/"/>
     
       <category term="注册中心" scheme="https://www.kany.me/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
     
