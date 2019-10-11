@@ -2,84 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.kany.me/2019/10/08/add-gitment-comment-for-github-pagages/</loc>
+    <loc>https://kany.me/2019/10/10/compile-redis-desktop-manager/</loc>
+    
+    <lastmod>2019-10-11T03:48:12.762Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kany.me/2019/10/10/iphone-install-old-app/</loc>
+    
+    <lastmod>2019-10-11T01:48:27.660Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kany.me/2019/10/09/macos-catalina-install-mysql/</loc>
+    
+    <lastmod>2019-10-10T08:56:55.631Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kany.me/2019/10/08/add-gitment-comment-for-github-pagages/</loc>
     
     <lastmod>2019-10-08T07:02:48.142Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/19/block-hosts-list/</loc>
+    <loc>https://kany.me/2019/09/19/block-hosts-list/</loc>
     
     <lastmod>2019-10-08T02:55:40.219Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/20/new-changes-of-date-in-jdk8/</loc>
+    <loc>https://kany.me/2019/09/20/new-changes-of-date-in-jdk8/</loc>
     
     <lastmod>2019-09-20T08:58:25.424Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/18/clear-windows-icon-cache/</loc>
+    <loc>https://kany.me/2019/09/18/clear-windows-icon-cache/</loc>
     
     <lastmod>2019-09-20T08:48:26.576Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/18/new-features-of-jdk/</loc>
+    <loc>https://kany.me/2019/09/18/new-features-of-jdk/</loc>
     
     <lastmod>2019-09-18T08:48:52.629Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/12/docker-install-mariadb/</loc>
+    <loc>https://kany.me/2019/09/12/docker-install-mariadb/</loc>
     
     <lastmod>2019-09-18T08:13:19.022Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/17/about-old-blog/</loc>
+    <loc>https://kany.me/2019/09/17/about-old-blog/</loc>
     
     <lastmod>2019-09-17T09:35:45.546Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/12/docker-install-nacos-server/</loc>
+    <loc>https://kany.me/2019/09/12/docker-install-nacos-server/</loc>
     
     <lastmod>2019-09-12T09:23:12.645Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/</loc>
+    <loc>https://kany.me/2019/09/12/docker-compose-install-nginx-mariadb-nacos-server/</loc>
     
     <lastmod>2019-09-12T07:58:54.779Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/12/docker-compose-install/</loc>
+    <loc>https://kany.me/2019/09/12/docker-compose-install/</loc>
     
     <lastmod>2019-09-12T07:53:58.795Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/2019/09/11/docker-install/</loc>
+    <loc>https://kany.me/2019/09/11/docker-install/</loc>
     
     <lastmod>2019-09-12T07:45:17.709Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kany.me/docs/nacos-server/docker-compose.json</loc>
+    <loc>https://kany.me/docs/nacos-server/docker-compose.json</loc>
     
     <lastmod>2019-09-10T02:55:57.955Z</lastmod>
     
