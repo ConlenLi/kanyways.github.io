@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kany.me/2019/10/16/docker-compose-redis/</loc>
+    
+    <lastmod>2019-10-17T10:01:39.602Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kany.me/assets/files/redis-cluster/sentinel/docker-compose.json</loc>
+    
+    <lastmod>2019-10-17T09:53:52.011Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://kany.me/assets/files/redis-cluster/redis/docker-compose.json</loc>
+    
+    <lastmod>2019-10-17T09:46:39.823Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kany.me/2019/10/10/compile-redis-desktop-manager/</loc>
     
     <lastmod>2019-10-11T03:53:36.616Z</lastmod>
