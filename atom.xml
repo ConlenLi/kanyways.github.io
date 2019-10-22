@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kany.me/"/>
-  <updated>2019-10-17T10:11:57.225Z</updated>
+  <updated>2019-10-22T04:16:38.966Z</updated>
   <id>https://kany.me/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>软件的Key</title>
+    <link href="https://kany.me/2019/10/22/soft-keys/"/>
+    <id>https://kany.me/2019/10/22/soft-keys/</id>
+    <published>2019-10-22T04:12:13.000Z</published>
+    <updated>2019-10-22T04:16:38.966Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="软件背景"><a href="#软件背景" class="headerlink" title="软件背景"></a>软件背景</h2><blockquote><p>没有什么背景，只是想分享一下而已</p></blockquote><h2 id="Charles-青花瓷"><a href="#Charles-青花瓷" class="headerlink" title="Charles(青花瓷)"></a>Charles(青花瓷)</h2><pre class="line-numbers language-bash"><code class="language-bash">用户名：https://kany.me序列号：46fb847a7daf78ee11<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><a id="more"></a><h2 id="WinRar-5-x-x"><a href="#WinRar-5-x-x" class="headerlink" title="WinRar(5.x.x)"></a>WinRar(5.x.x)</h2><blockquote><p>将文件保存成<strong>rarreg.key</strong></p></blockquote><pre class="line-numbers language-bash"><code class="language-bash">RAR registration datahttps://kany.meUnlimited Company LicenseUID<span class="token operator">=</span>a9f1d30e13c168865d5464122122505d5453a37f84fd6cc174aaa975a770a5b063e19d9eeed5fb3c295a0a17441ed460fce6cb5ffde62890079861be576387177131ced835ed65cc743d9777f2ea71a8e32c7e593cf66794343565b41bcf56929486b8bcdac33d50ecf77399602d73a67392b92ce7c1e3c80a006e5ad4c350f13f8b0904263464a0b7acf3d277c581811d1da3f0fa5e6c4319447fade6c82322b6bd96bee8f43b30ab6041630eb4afa8989b0eaa53054b3985cae27c7e04cfa248001932106284<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;软件背景&quot;&gt;&lt;a href=&quot;#软件背景&quot; class=&quot;headerlink&quot; title=&quot;软件背景&quot;&gt;&lt;/a&gt;软件背景&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;没有什么背景，只是想分享一下而已&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;Charles-青花瓷&quot;&gt;&lt;a href=&quot;#Charles-青花瓷&quot; class=&quot;headerlink&quot; title=&quot;Charles(青花瓷)&quot;&gt;&lt;/a&gt;Charles(青花瓷)&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;用户名：https://kany.me
+序列号：46fb847a7daf78ee11&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="charles" scheme="https://kany.me/tags/charles/"/>
+    
+      <category term="key" scheme="https://kany.me/tags/key/"/>
+    
+      <category term="keygen" scheme="https://kany.me/tags/keygen/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker Compose 部署 Redis 及原理讲解</title>
@@ -348,6 +377,8 @@
     
       <category term="docker-compose" scheme="https://kany.me/tags/docker-compose/"/>
     
+      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
+    
       <category term="database" scheme="https://kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://kany.me/tags/mariadb/"/>
@@ -359,8 +390,6 @@
       <category term="nacos" scheme="https://kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://kany.me/tags/nacos-server/"/>
-    
-      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -436,11 +465,11 @@
     
       <category term="docker" scheme="https://kany.me/tags/docker/"/>
     
+      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
+    
       <category term="nacos" scheme="https://kany.me/tags/nacos/"/>
     
       <category term="nacos-server" scheme="https://kany.me/tags/nacos-server/"/>
-    
-      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
     
       <category term="注册中心" scheme="https://kany.me/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
     
@@ -474,13 +503,13 @@
     
       <category term="docker" scheme="https://kany.me/tags/docker/"/>
     
+      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
+    
       <category term="database" scheme="https://kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://kany.me/tags/mysql/"/>
-    
-      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
     
   </entry>
   
@@ -509,13 +538,13 @@
     
       <category term="docker" scheme="https://kany.me/tags/docker/"/>
     
+      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
+    
       <category term="database" scheme="https://kany.me/tags/database/"/>
     
       <category term="mariadb" scheme="https://kany.me/tags/mariadb/"/>
     
       <category term="mysql" scheme="https://kany.me/tags/mysql/"/>
-    
-      <category term="dockerfile" scheme="https://kany.me/tags/dockerfile/"/>
     
   </entry>
   
