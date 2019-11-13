@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kany.me/2019/10/10/compile-redis-desktop-manager/</loc>
+    
+    <lastmod>2019-11-13T06:15:40.845Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://kany.me/2019/10/22/soft-keys/</loc>
     
     <lastmod>2019-10-22T04:16:38.966Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://kany.me/2019/10/16/docker-compose-redis/</loc>
     
     <lastmod>2019-10-17T10:11:57.225Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://kany.me/2019/10/10/compile-redis-desktop-manager/</loc>
-    
-    <lastmod>2019-10-11T03:53:36.616Z</lastmod>
     
   </url>
   
